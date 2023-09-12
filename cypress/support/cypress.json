@@ -1,0 +1,27 @@
+{
+
+
+    "defaultCommandTimeout":10000,
+    "pageLoadTimeout":10000,
+    "chromeWebSecurity" : false,
+    "screenshotFolder":"cypress/reports/mochareports/assets",
+    "screenShotOnRunFailure": true,
+    "reporter": "mochawesome",
+    "reporterOptionS": {
+
+    "reportDir": "cypress/reports",
+    "reportFileName" : "report",
+        "overwrite":true,
+        "html":true,
+        "json":true,
+        "chartjs":true}
+
+    
+
+
+
+
+
+
+   
+}
